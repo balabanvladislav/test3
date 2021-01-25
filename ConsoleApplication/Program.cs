@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.NetworkInformation;
 using System.Text;
 
 namespace ConsoleApplication
@@ -7,13 +8,13 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            Policeman a = new Policeman();
-            a.Age = 10;
-            a.Sex = 'M';
-            a.Name = "Ivan Ivanov";
-            a.SayHello();
-            Console.WriteLine(a.Age);
-            a.EatDonuts();
+            Cat cat = new Cat();
+            cat.GetRoar();
+            Dog dog = new Dog();
+            dog.GetRoar();
+            Pinguin pinguin = new Pinguin();
+            pinguin.GetRoar();
+            
         }
     }
 }
