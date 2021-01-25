@@ -15,6 +15,10 @@ namespace ConsoleApplication
     }
     public class Policeman: Human
     {
+        public void EatDonuts()
+        {
+            Console.WriteLine("Am Nam Nam.");
+        }
             
     }
 }

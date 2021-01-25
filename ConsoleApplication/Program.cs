@@ -12,6 +12,8 @@ namespace ConsoleApplication
             a.Sex = 'M';
             a.Name = "Ivan Ivanov";
             a.SayHello();
+            Console.WriteLine(a.Age);
+            a.EatDonuts();
         }
     }
 }

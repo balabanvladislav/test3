@@ -1,0 +1,6 @@
+D:\Projects\LearnCS\ConsoleApplication\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+D:\Projects\LearnCS\ConsoleApplication\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+D:\Projects\LearnCS\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.csprojAssemblyReference.cache
+D:\Projects\LearnCS\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CoreCompileInputs.cache
+D:\Projects\LearnCS\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+D:\Projects\LearnCS\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
