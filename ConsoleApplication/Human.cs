@@ -4,7 +4,16 @@ namespace ConsoleApplication
 {
     public class Human
     {
-        public int Age { set; get; }
+        public int age;
+        public int Age {
+            set
+            {
+                if (value > 0) age = value;
+            }
+            get
+            {
+                return age;
+            } }
         public char Sex { set; get; }
         public string Name { set; get; }
         public void SayHello()
