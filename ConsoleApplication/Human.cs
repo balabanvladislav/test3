@@ -4,30 +4,27 @@ namespace ConsoleApplication
 {
     public class Human
     {
-        public int age;
-        public int Age {
-            set
-            {
-                if (value > 0) age = value;
-            }
-            get
-            {
-                return age;
-            } }
-        public char Sex { set; get; }
+        public int Age { set; get; }
         public string Name { set; get; }
-        public void SayHello()
+
+        public Human() { }
+        public Human(string name)
         {
-            Console.WriteLine("Hello!");
+            Name = name;
+        }
+        public Human(string name, int age): this(name) // in this noi am chemat human de sus.
+        {
+            Age = age;
+        }
+    }
+
+    public class Policeman : Human
+    {   public Policeman(){}
+        public string Rank { set; get; }
+        public Policeman(string name, int age, string rank): base(name,age)
+        {
+            Rank = rank;
         }
         
-    }
-    public class Policeman: Human
-    {
-        public void EatDonuts()
-        {
-            Console.WriteLine("Am Nam Nam.");
-        }
-            
     }
 }
