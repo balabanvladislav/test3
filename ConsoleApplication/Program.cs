@@ -10,8 +10,8 @@ namespace ConsoleApplication
         {
             public int GetMax(params int[] arr)
             {
-                int max = -9999;
-                for (int i = 0; i < arr.Length; i++)
+                int max = arr[0];
+                for (int i = 1; i < arr.Length; i++)
                 {
                     if (max < arr[i])
                         max = arr[i];
@@ -21,9 +21,9 @@ namespace ConsoleApplication
             }
             public string GetMax(params string[] arr)
             {
-                int max = -1;
+                int max = arr[0].Length; 
                 int i1 = 0;
-                for (int i = 0; i < arr.Length; i++)
+                for (int i = 1; i < arr.Length; i++)
                 {
                     if (max < arr[i].Length)
                     {
@@ -40,7 +40,7 @@ namespace ConsoleApplication
             MyClass a = new MyClass();
             int max = a.GetMax(1, 2, 3, 4, 5);
             Console.WriteLine($"max number is {max}");
-            string max_string = a.GetMax("anime", "sasat","naruto one love");
+            string max_string = a.GetMax("anime", "hello word!","naruto one love");
             Console.WriteLine($"the biggest word is {max_string}");
 
         }
